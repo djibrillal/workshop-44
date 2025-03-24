@@ -21,10 +21,11 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "types": ["node", "web", "jest"],
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "__test__/**/*.ts"],
   "exclude": ["node_modules", ".vscode", "prisma"]
 }
